@@ -7,6 +7,10 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
+  "engines": {
+    "npm":">=8.0.0 <9.6.4",
+    "node": ">=16.0.0 <17.0.0"
+  },
   "keywords": [
     "javascript",
     "backend",
